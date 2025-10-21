@@ -11,4 +11,5 @@ while (rules != "okay"){
 };
 let question = prompt("What's your move?");
 
-Math.random
+let answer
+Math.floor(Math.random() * 3 - 1 + 1) + 1;
